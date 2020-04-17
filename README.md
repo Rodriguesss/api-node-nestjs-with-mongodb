@@ -38,10 +38,10 @@ $ npm install
 
 ```bash
 # development
-$ npm run start:dev
+$ npm run dev
 
 # watch mode
-$ npm run start:local
+$ npm run loc
 ```
 
 ## Support
