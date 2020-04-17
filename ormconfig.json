@@ -1,0 +1,13 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "test",
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/modules/*.entity.js"
+  ],
+  "cli": {
+    "entitiesDir": "src/modules/"
+  }
+}
