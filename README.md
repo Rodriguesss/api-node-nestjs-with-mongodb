@@ -44,6 +44,12 @@ $ npm run dev
 $ npm run loc
 ```
 
+```
+$ sudo systemctl start mongod.service 
+or 
+$ docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
